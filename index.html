@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Regresiva | Conalep</title>
+</head>
+<body>
+    <header>
+        <h2 id="mensaje">LA PREPA COMIENZA EN: </h2>
+        <h2 id="contador"></h2>
+    </header>
+
+    
+    <iframe id="crabDance" width="860" height="615" src="https://www.youtube.com/embed/sa1IoHAhuXg?si=1lyAmHQXlTKmFZpt?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe style="display: none;" id="Fernan" width="860" height="615" src="https://www.youtube.com/embed/9r84a9fONds?si=xap80zfZJwsHiRT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <form action="" id="formComentarios">
+        <input type="text" id="user" placeholder="Escribe tu nombre de usuario" required>
+        <input type="text" id="mensajeIn" placeholder="deja un mensaje pa los repos " required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="listaComentarios"></div>
+
+    <footer>
+        <p>pagina creda con motivos de aburrimiento. <br>&copy; 2026 Ningun derecho reservado 
+        </p>
+    </footer>
+
+    <script src="time.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
