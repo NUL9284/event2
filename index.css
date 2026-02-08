@@ -67,7 +67,8 @@ body iframe{
 
 #listaComentarios{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #listaComentarios .comentario{
@@ -101,4 +102,5 @@ footer{
         font-size: small;
         flex-direction: column;
     }
+
 }
